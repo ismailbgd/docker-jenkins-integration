@@ -3,7 +3,7 @@ package model;
 public class main {
 
 	public static void main(String[] args) {
-		System.out.println("helloooo word ???????");
+		System.out.println("helloooo word everyOne ??");
 	}
 
 }
