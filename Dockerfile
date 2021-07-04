@@ -1,4 +1,4 @@
-FROM openjdk:11
-ARG JAR_FILE=build/libs/*.jar
-COPY ${JAR_FILE} docker-jenkins-integration-sample.jar
-ENTRYPOINT ["java","-jar","/docker-jenkins-integration-sample.jar"]
+FROM openjdk:8u111-jdk-alpine
+VOLUME /tmp
+ADD /target/docker-jenkins-integration-sample.jar app.jar
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
