@@ -3,7 +3,6 @@
   <groupId>com.sml</groupId>
   <artifactId>docker-jenkins-integration</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>demo</name>
   
   <build>
