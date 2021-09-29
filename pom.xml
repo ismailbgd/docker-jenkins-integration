@@ -4,9 +4,10 @@
   <artifactId>docker-jenkins-integration</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>docker-jenkins-integration</name>
+  <packaging>war</packaging>
   
   <build>
-  <finalName>docker-jenkins-integration-sample</finalName>
+  <finalName>docker-jenkins</finalName>
   </build>
   
   
